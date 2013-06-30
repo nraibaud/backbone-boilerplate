@@ -21,11 +21,13 @@ define(
         Views = {};
 
         Views.Main = Backbone.View.extend({
-            el: '#app',
+            el: '',
+            id: 'app',
+            template: null,
             module: null,
-            templates: null,
-            initialize: function (properties,options) {
-                this.module = options.module || null;
+            initialize: function (properties, options) {
+                this.module = options.module || this.module;
+                this.template = options.template || this.template;
 
                 this.listen();
 
