@@ -1,4 +1,4 @@
-define(['hybrid'], function () {
+define([], function () {
     'use strict';
 
     /*

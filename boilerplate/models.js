@@ -1,6 +1,6 @@
 define(
-    ['hybrid'],
-    function (H) {
+    [],
+    function () {
         'use strict';
 
         /*

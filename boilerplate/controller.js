@@ -1,5 +1,5 @@
 define(
-    ['hybrid'],
+    [],
     function () {
         'use strict';
 

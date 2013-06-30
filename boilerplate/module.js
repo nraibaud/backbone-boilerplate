@@ -1,5 +1,4 @@
 define([
-    'hybrid',
     App.modulesRoutersPath + 'MODULE.routers',
     App.modulesControllersPath + 'MODULE.controllers',
     App.modulesModelsPath + 'MODULE.models',
@@ -8,7 +7,7 @@ define([
     App.modulesTemplatesPath + 'MODULE.templates'
 ],
 
-    function (H, Router, Controller, Models, Collections, Views, templates) {
+    function (Router, Controller, Models, Collections, Views, templates) {
         'use strict';
 
         /*
